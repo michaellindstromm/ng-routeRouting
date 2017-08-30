@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Route Routing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body ng-app="RouteRouting">
+
+    <h1>We know about two Roads! Here's what we know!</h1>
+
+    <div ng-include="'partials/navbar.html'"></div>
+
+    <div ng-view></div>
+
+    <script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+
+    <script src="app/app.js"></script>
+    <script src="app/controllers/blueridgeparkway.js"></script>
+    <script src="app/controllers/route66.js"></script>
+</body>
+
+</html>

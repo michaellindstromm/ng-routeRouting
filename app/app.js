@@ -5,7 +5,7 @@ var app = angular.module('RouteRouting', ['ngRoute']);
 app.config(function($routeProvider) {
     $routeProvider
     .when('/', {
-
+        templateUrl: '/partials/navbar.html'
     })
     .when('/blueridge', {
         templateUrl: '/partials/blueridge.html',
